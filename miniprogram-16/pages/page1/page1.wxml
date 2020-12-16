@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view>
+  <button bindtap='send5'>紧急制动</button>
+  <button bindtap='send7'>SING!</button>
+  <button bindtap='send6'>DANCE!</button>
+</view>
+<image class="notice" mode="heightFix" src="/pages/src/blankCar.png"></image>
+<image wx:if="{{temp==4}}"class="notice" mode="heightFix" src="/pages/src/left.png"></image>
+<image wx:if="{{temp==1}}"class="notice" mode="heightFix" src="/pages/src/forward.png"></image>
+<image wx:if="{{temp==2}}"class="notice" mode="heightFix" src="/pages/src/backward.png"></image>
+<image wx:if="{{temp==3}}"class="notice" mode="heightFix" src="/pages/src/right.png"></image>
+<view class="relative">
+  <!-- 背景图片 -->
+  <image style="width: 100px; height: 100px;" class="pic_background" src="/pages/src/2.jpg"></image>
+  <!-- 摇杆图片 -->
+  <image style="width: 80px; height: 80px;left:{{leftLooks}}px;top:{{topLooks}}px;"
+    bindtouchend='ImageReturn'
+    bindtouchmove='ImageTouchMove' 
+    class="pic_tou" 
+    src="/pages/src/1.jpg " 
+    bindtap="ImageTouch"></image>
+</view>
+<image class="console" mode="widthFix" src="/pages/src/console.png"></image>

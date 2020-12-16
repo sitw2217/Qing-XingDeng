@@ -1,0 +1,11 @@
+<image class="word"  mode="widthFix" src="/pages/src/WORDS.png"></image>
+<image class="backgroundA" mode="widthFix" src="/pages/src/background3.png"></image>
+<image class="background" src="/pages/src/background2.png"></image>
+<image class="littleCar" mode="widthFix" src="/pages/src/car.gif"></image>
+<image class="background"  src="/pages/src/background1.png"></image>
+
+<view class="buttonView">
+  <navigator url="/pages/page1/page1">
+    <button >开启小车之旅！</button>
+  </navigator>
+</view>

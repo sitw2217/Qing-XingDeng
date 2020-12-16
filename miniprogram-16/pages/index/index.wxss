@@ -1,0 +1,25 @@
+.littleCar{
+  width:784rpx;
+  display: block;
+}
+.background{
+  width:784rpx;
+  height:560rpx;
+  display: block;
+}
+.buttonView{
+  position: fixed;
+  top:1000rpx;
+  left:220rpx;
+}
+.backgroundA{
+  width: 600rpx;
+  position: fixed;
+  left:90rpx
+}
+.word{
+  position:fixed;
+  width:300rpx;
+  top:280rpx;
+  left:400rpx
+}
